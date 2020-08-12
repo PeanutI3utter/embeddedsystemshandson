@@ -1,0 +1,42 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-20,-510,1718,1027,1.22847,0,973>
+  <Grid=10,10,0>
+  <DataSet=6_1.dat>
+  <DataDisplay=6_1.sch>
+  <OpenDisplay=1>
+  <Script=6_1.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Erstellt von:>
+  <FrameText2=Datum:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 180 806 1082 416 3 #c0c0c0 1 00 0 0 0.05 0.01 1 -0.300092 0.5 3.30001 1 -1 0.2 1 315 0 225 "" "" "">
+	<"PWM_UNFILTERED.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Tab 1270 187 428 49 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"CUTOFF" #0000ff 0 3 1 0 0>
+	<"duty_cycle" #0000ff 0 3 1 0 0>
+	<"FILTER_C" #0000ff 0 3 1 0 0>
+	<"FILTER_R" #0000ff 0 3 1 0 0>
+  </Tab>
+  <Rect 190 320 1046 300 3 #c0c0c0 1 00 0 0.3 0.01 0.5 0 1.4 0.01 1.6 1 -1 0.5 1 315 0 225 "" "" "">
+	<"PWM_FILTERED.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 0.3755 1125 -328 6 0 0>
+	  <Mkr 0.376 1127 -276 6 0 0>
+  </Rect>
+  <Rect 180 -91 1066 399 3 #c0c0c0 1 00 1 0 0.02 0.5 1 -0.2 0.2 1.66296 1 -1 0.2 1 315 0 225 "" "" "">
+	<"PWM_FILTERED.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

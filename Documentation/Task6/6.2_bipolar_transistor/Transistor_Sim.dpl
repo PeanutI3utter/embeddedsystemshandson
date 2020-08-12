@@ -1,0 +1,35 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-49,-383,1167,1013,0.683014,0,76>
+  <Grid=10,10,0>
+  <DataSet=Transistor_Sim.dat>
+  <DataDisplay=Transistor_Sim.sch>
+  <OpenDisplay=1>
+  <Script=Transistor_Sim.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Erstellt von:>
+  <FrameText2=Datum:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 100 505 834 745 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Ice.I" #0000ff 0 3 0 0 0>
+	  <Mkr 17.684/0.0004 791 -808 3 0 0>
+	  <Mkr 18.096/0.00035 857 -730 3 0 0>
+	  <Mkr 19.566/0.0003 893 -652 3 0 0>
+	  <Mkr 19.618/0.00025 915 -563 3 0 0>
+	  <Mkr 19.77/0.00015 930 -470 3 0 0>
+	  <Mkr 19.778/0.0001 941 -378 3 0 0>
+	  <Mkr 19.882/5e-05 955 -266 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,1 @@
+gcc Task2.c SWD.o -lpigpio -o T2

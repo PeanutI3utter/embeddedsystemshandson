@@ -1,0 +1,73 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-170,-2497,1906,794,1,0,1320>
+  <Grid=10,10,0>
+  <DataSet=5_1.dat>
+  <DataDisplay=5_1.sch>
+  <OpenDisplay=1>
+  <Script=5_1.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Erstellt von:>
+  <FrameText2=Datum:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 700 774 524 304 3 #c0c0c0 1 00 1 0 0.001 0.005 1 -5.02228 2 5.0317 1 -1 0.5 1 315 0 225 "" "" "">
+	<"RCLP.Vt" #0000ff 0 3 0 0 0>
+	<"LCLP.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 680 -1922 560 388 3 #c0c0c0 1 11 0 1000 1 5000 1 0.3 1 3 1 -1 0.2 1 315 0 225 "Frequency" "Voltage of RL LP filter" "">
+	<"RLLP.v" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 30 -1911 537 399 3 #c0c0c0 1 11 0 1000 1000 5000 1 0.3 1 3 1 -1 0.2 1 315 0 225 "Frequency" "Voltaga of RC LP filter" "">
+	<"RCLP.v" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 1350 -1926 532 384 3 #c0c0c0 1 11 0 1000 500 5000 1 0 0.2 2 1 -1 0.2 1 315 0 225 "Frequency" "Voltage of LC LP filter" "">
+	<"LCLP.v" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Tab 590 -2428 545 49 3 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<"C_HP" #0000ff 0 3 1 0 0>
+	<"C_LP" #0000ff 0 3 1 0 0>
+	<"L" #0000ff 0 3 1 0 0>
+	<"R_HP" #0000ff 0 3 0 0 0>
+	<"R_LP" #0000ff 0 3 0 0 0>
+	<"Rv_HP" #0000ff 0 3 0 0 0>
+	<"Rv_LP" #0000ff 0 3 0 0 0>
+  </Tab>
+  <Rect 690 -1417 544 403 3 #c0c0c0 1 11 0 1000 1000 5000 1 0.3 1 3 1 -1 0.2 1 315 0 225 "Frequency" "Voltage of RL HP filter" "">
+	<"RLHP.v" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 1350 -1409 536 414 3 #c0c0c0 1 11 0 1000 1000 5000 1 -0.046842 0.2 1.69907 1 -1 0.2 1 315 0 225 "Frequency" "Voltage of LC HP filter" "">
+	<"LCHP.v" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 1352 -997 531 303 3 #c0c0c0 1 00 1 0 0.0005 0.005 1 -1 0.5 1 1 -1 0.5 1 315 0 225 "" "" "">
+	<"RCHP.Vt" #0000ff 0 3 0 0 0>
+	<"LCHP.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 690 -994 544 316 3 #c0c0c0 1 00 1 0 0.0005 0.005 1 -1.29841 0.5 1.34413 1 -1 0.5 1 315 0 225 "time" "" "">
+	<"LCLP.Vt" #ff0000 0 3 0 0 0>
+	<"RCLP.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 30 -1411 538 409 3 #c0c0c0 1 11 0 1000 1 5000 1 0.3 1 3 1 -1 0.2 1 315 0 225 "Frequency" "Voltage of RC HP filter" "">
+	<"RCHP.v" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 50 -438 553 412 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"db_rc_lp" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 660 -436 595 414 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"db_lc_lp" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 45 -1010 518 302 3 #c0c0c0 1 00 1 0 0.0005 0.005 1 -2.4 1 2.4 1 -1 0.5 1 315 0 225 "time" "Input voltage" "">
+	<"IN.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
